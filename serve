@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+
+shell_exec("php -S localhost:" . (isset($argv[1]) ? $argv[1] : '8100') . " -t src/");
